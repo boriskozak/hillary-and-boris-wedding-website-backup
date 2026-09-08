@@ -67,7 +67,7 @@ li { margin-bottom: 0.25rem; }
 /* Hero */
 .hero {
   position: relative;
-  background: var(--oak-deep) url("images/hero-couple.jpg") center 20% / cover no-repeat;
+  background: var(--oak-deep) url("hero-couple.jpg") center 20% / cover no-repeat;
   color: var(--paper);
   text-align: center;
   padding: clamp(4rem, 12vw, 10rem) 1.25rem clamp(3rem, 8vw, 6rem);
@@ -82,7 +82,7 @@ li { margin-bottom: 0.25rem; }
 .hero .lede, .hero .date, .hero h1 { text-shadow: 0 1px 12px rgba(0,0,0,0.45); }
 .banner {
   height: clamp(220px, 40vw, 520px);
-  background: url("images/hero-canyon.jpg") center 45% / cover no-repeat;
+  background: url("hero-canyon.jpg") center 45% / cover no-repeat;
 }
 .hero img { width: min(140px, 36vw); height: auto; filter: drop-shadow(0 1px 8px rgba(0,0,0,0.4)); }
 .hero h1 {
