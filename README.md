@@ -15,5 +15,5 @@ For a custom domain, add a `CNAME` file containing the bare domain and point DNS
 
 - `index.html`, `registry.html`, `rsvp.html`: the three pages
 - `style.css`: all styling
-- ``: monogram and hotel photos recovered from the backup
+- `monogram.png`, `monogram-white.png`, `favicon.png`, `hero-couple.jpg`, `hero-canyon.jpg`, `guest-ranch.jpg`, `residence-inn.jpg`, `sheraton.jpg`: monogram and hotel photos recovered from the backup
 - `.nojekyll`: tells Pages to serve files as-is
