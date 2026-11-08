@@ -26,6 +26,15 @@ body {
 }
 
 a { color: var(--oak); text-decoration-color: var(--canyon); text-underline-offset: 3px; }
+
+/* Skip link: hidden until keyboard focus */
+.skip-link {
+  position: absolute; left: 1rem; top: -4rem; z-index: 20;
+  background: var(--oak-deep); color: var(--paper);
+  padding: 0.6rem 1rem; font-family: var(--display);
+  font-weight: 600; letter-spacing: 0.1em; font-size: 0.85rem; text-decoration: none;
+}
+.skip-link:focus { top: 1rem; color: var(--paper); }
 a:hover { color: var(--canyon); }
 a:focus-visible, button:focus-visible { outline: 3px solid var(--canyon); outline-offset: 3px; }
 
